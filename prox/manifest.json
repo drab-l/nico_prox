@@ -1,0 +1,19 @@
+{
+
+  "manifest_version": 2,
+  "name": "Prox",
+  "version": "1.0",
+ 
+  "description": "local http filter",
+ 
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.nicovideo.jp/my/top*", "*://*.nicovideo.jp/search/*"],
+      "js": ["prox.js"]
+    }
+  ]
+}
