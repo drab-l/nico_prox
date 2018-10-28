@@ -63,6 +63,8 @@ function keydown (event)
 		if (document.getElementsByClassName("pager")[0].lastChild.href){
 			document.location=document.getElementsByClassName("pager")[0].lastChild.href
 		}
+	} else {
+		return;
 	}
 	event.preventDefault();
 }

@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Prox",
-  "version": "1.0",
+  "version": "1.1",
  
   "description": "local http filter",
  
